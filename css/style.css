@@ -20,7 +20,14 @@ body {
     background: url('../images/bg-shadow.jpg') no-repeat right bottom / cover fixed;
     text-align: center;
 }
-
+#loading{
+    background: rgba(238,221,136,1);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
 /*
 COMMON
 ================================================ */
@@ -242,3 +249,5 @@ DESKTOP SIZE
         height: 50rem;
     }
 }
+
+
